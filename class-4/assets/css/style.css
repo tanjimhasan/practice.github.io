@@ -1,0 +1,114 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f3f3;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+.section-top h2 {
+    color: #14c6fb;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.section-top h2 strong {
+    font-weight: 800;
+}
+.section-top-sep {
+    background-color: #14c6fb;
+    height: 2px;
+    margin: 0 auto 35px;
+    position: relative;
+    width: 300px;
+}
+.section-top-sep::after {
+    background-color: #14c6fb;
+    bottom: -2px;
+    content: "";
+    height: 5px;
+    left: 50%;
+    margin-left: -35px;
+    position: absolute;
+    width: 70px;
+    z-index: 1;
+}
+.section-top {
+    margin-bottom: 50px;
+}
+.single-team-info {
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 30px;
+    text-align: center;
+}
+.single-team-info img {
+    border-radius: 50%;
+    margin: 0 auto 35px;
+    max-width: 200px;
+}
+.member-quote span {
+    color: #14c6fb;
+    font-size: 130%;
+}
+
+.single-team-info h4 {
+    color: #14c6fb;
+    margin-top: 20px;
+}
+.single-team-info h4 span {
+    color: #333;
+    display: block;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.team-carousel .owl-nav div {
+    background-color: #14c6fb;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    height: 35px;
+    left: -70px;
+    line-height: 32px;
+    margin-top: -17.5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 35px;
+}
+.team-carousel .owl-nav div.owl-next {
+    left: auto;
+    right: -70px;
+}
