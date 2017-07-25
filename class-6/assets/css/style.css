@@ -62,6 +62,7 @@ h2 {
     font-size: 14px;
     padding: 35px 15px 10px;
     width: 100%;
+    transition: .2s
 }
 .form-element input[type="text"]:focus, .form-element input[type="email"]:focus, .form-element textarea:focus {
     background-color: #ddd;
