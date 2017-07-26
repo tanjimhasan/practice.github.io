@@ -1,0 +1,122 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.newsletter-bg {
+    background-image: url("../img/bg-1.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    padding-bottom: 180px;
+}
+.newsletter-bg::after {
+    background-color: #333;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.newsletter-bg h3 {
+    font-weight: 900;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.newsletter-form input[type="email"] {
+    background-color: #333;
+    border: 1px solid #8e8582;
+    border-radius: 50px;
+    opacity: 0.3;
+    padding: 10px 15px;
+    width: 74%;
+}
+.newsletter-form input[type="submit"] {
+    background-color: #34b79d;
+    border: medium none;
+    border-radius: 50px;
+    padding: 11px;
+    text-transform: uppercase;
+    width: 25%;
+}
+.newsletter-form > p {
+    font-style: italic;
+    margin-top: 25px;
+}
+.testimonial-box {
+    background-color: #fff;
+    border-right: 1px solid #ededed;
+    margin-top: -160px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    z-index: 2;
+}
+.single-testimonial-box {
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    float: left;
+    padding: 50px 80px;
+    width: 50%;
+    max-height: 258px;
+}
+.testimonial-box h4 {
+    text-transform: uppercase;
+}
+.testimonial-text {
+    font-style: italic;
+    line-height: 1.7;
+}
+p.author-name {
+    color: #000;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 20px;
+}
+a.testimonial-btn {
+    background-color: #000;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 8px 20px;
+}
