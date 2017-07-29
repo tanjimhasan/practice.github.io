@@ -65,6 +65,7 @@ body {
     top: 0;
     width: 60%;
     z-index: -1;
+    background-color: #333;
 }
 .boxed-text {
     background: #fff none repeat scroll 0 0;
