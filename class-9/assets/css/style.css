@@ -1,0 +1,97 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-title h2 {
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.absoulate-bg-1:after,.overlay-bg-1 {
+    background-image: url(../img/bg-1.jpeg);
+    left: 0;
+    right: auto;
+}
+.absoulate-bg-2:after,.overlay-bg-2 {
+    background-image: url(../img/bg-2.jpeg);
+}
+.absoulate-bg,.overlay {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    padding: 80px 0;
+}
+.absoulate-bg::after,.overlay-bg {
+    background-position: center center;
+    background-size: cover;
+    content: "";
+    height: 100%;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 60%;
+    z-index: -1;
+}
+.boxed-text {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 0 3px #999;
+    padding: 50px;
+    text-align: center;
+}
+.boxed-text h2 {
+    text-transform: capitalize;
+}
+.boxed-btn {
+    background-color: #aa6910;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+.overlay-bg::after {
+    background-color: #333;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
