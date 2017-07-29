@@ -1,0 +1,162 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.slider-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.slider-bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+.slider-bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+.boxed-btn,.welcome-area:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#035a95+0,0497bc+100 */
+    background: #035a95; /* Old browsers */
+    background: -moz-linear-gradient(left, #035a95 0%, #0497bc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #035a95 0%,#0497bc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #035a95 0%,#0497bc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#035a95', endColorstr='#0497bc',GradientType=1 ); /* IE6-9 */
+}
+
+.welcome-area {
+    padding-bottom: 100px;
+    position: relative;
+    z-index: 1;
+}
+.welcome-area::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 65%;
+    z-index: -1;
+}
+.logo a {
+    color: #fff;
+}
+.logo a h2 {
+    letter-spacing: 2px;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu ul li {
+    display: inline-block;
+    text-transform: uppercase;
+}
+.main-menu li a {
+    color: #fff;
+    display: block;
+    padding: 17px;
+}
+.header-right a {
+    color: #000;
+}
+.social-links {
+    border-left: 1px solid #e8e8e8;
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 50px;
+    padding-left: 20px;
+}
+.social-links a {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+}
+.header-right {
+    padding-top: 18px;
+}
+.logo {
+    padding-top: 6px;
+}
+.header-area {
+    padding-top: 15px;
+}
+.single-slider {
+    background-position: center top;
+    background-size: cover;
+    display: table;
+    height: 450px;
+    width: 100%;
+}
+.slider-inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.slider-text {
+    max-width: 500px;
+    padding: 120px;
+    text-transform: uppercase;
+}
+.slider-text h4 {
+    color: #005b98;
+    font-size: 25px;
+    font-weight: 500;
+}
+.slider-text h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+}
+.boxed-btn {
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 60px;
+    padding: 13px 20px;
+}
+.header-area {
+    padding: 30px 0;
+}
+.main-menu a:hover,.slider-area a:hover {
+    color: #49A58F;
+}
+.homepage-slider .owl-nav div {
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
