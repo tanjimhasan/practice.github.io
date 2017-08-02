@@ -3,7 +3,7 @@
 
     jQuery(document).ready(function($){
     	$(".video-play-btn").modalVideo({
-    		channel:'vimeo'
+    		channel:'youtube'
     	});
 
 
