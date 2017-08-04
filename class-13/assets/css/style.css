@@ -183,7 +183,7 @@ html,body {
     width: 1px
     
 }
-.single-slide-item:after {
+.single-slide-item:after,.video-bg-area:after {
     background-color: #333;
     position: absolute;
     width: 100%;
