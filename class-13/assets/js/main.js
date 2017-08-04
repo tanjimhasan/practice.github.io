@@ -30,7 +30,7 @@
 
        	$(".video-bg-area").YTPlayer({
        	    fitToBackground: true,
-       	    videoId: 'LSmgKRx5pBo'
+       	    videoId: '0c57WC9Vc30'
        	});
 
 
