@@ -1,0 +1,238 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.slide-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.slide-bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+.slide-bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+.header-area a {
+    color: #333;
+    font-size: 16px;
+}
+
+.logo a {
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+.logo span {
+    color: #01C0DA;
+}
+
+.main-menu ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.main-menu li a {
+    display: block;
+    padding: 25px;
+}
+
+.social-icon {
+    border-left: 1px solid #ddd;
+    padding-left: 20px;
+}
+
+.social-icon a {
+    padding: 25px 15px;
+    display: inline-block;
+}
+
+.logo {
+    padding-top: 15px;
+}
+
+.header-area {
+    border-bottom: 1px solid #ddd;
+}
+
+.single-slide-item {
+    background-position: center;
+    background-size: cover;
+    background-color: #333;
+    height: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+html,body {
+    height: 100%;
+}
+
+.slider-text-table,.video-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.slider-text-inner,.video-text-inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.homepage-slides {
+    height: 100%;
+    position: relative;
+}
+
+.slider-text,.video-text {
+    color: #fff;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider-text p,.video-text p {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.slider-text h2,.video-text h2 {
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.video-play-btn a {
+    line-height: 47px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 50%;
+    font-size: 20px;
+    padding-left: 5px;
+}
+.header-area.header-absolute-area {
+    border: none;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+
+.header-area.header-absolute-area a {
+    color: #fff;
+}
+
+.header-absolute-area:after,.header-absolute-area .social-icon:before {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+    opacity: .2;
+}
+
+.header-area.header-absolute-area .social-icon {
+    border: none;
+    position: relative;
+}
+
+.header-absolute-area .social-icon:before {
+    height: 100%;
+    width: 1px
+    
+}
+.single-slide-item:after {
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.homepage-slides div.slider-text-inner, .homepage-slides div.slider-text-inner div, .homepage-slides div.owl-nav,.homepage-slides div.owl-nav div,.homepage-slides div.owl-dots,.homepage-slides div.owl-dots div {
+    height: auto;
+}
+
+.homepage-slides,.homepage-slides div {
+    height: 100%;
+}
+.homepage-slides .owl-nav div {
+    margin-top: -25px;
+    text-align: center;
+    position: absolute;
+    color: #333;
+    width: 50px;
+    height: 50px!important;
+    background-color: #fff;
+    top: 50%;
+    left: 50px;
+    line-height: 47px;
+    font-size: 20px;
+    border-radius: 50%;
+    opacity: .5;
+    transition: .3s;
+}
+.homepage-slides .owl-nav div.owl-next {
+    left: initial;
+    right: 50px;
+}
+.homepage-slides .owl-nav div:hover {
+    opacity: .8;
+    background-color: #01C0DA;
+    color: #fff;
+}
+.video-bg-area {
+    position: relative;
+    background: transparent;
+}
+
+.ytplayer-container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
