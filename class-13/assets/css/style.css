@@ -229,6 +229,8 @@ html,body {
 .video-bg-area {
     position: relative;
     background: transparent;
+    overflow: hidden;
+    padding: 150px 0;
 }
 
 .ytplayer-container {
