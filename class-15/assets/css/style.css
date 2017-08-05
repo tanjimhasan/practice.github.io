@@ -1,0 +1,136 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.portfolio-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.portfolio-bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+.portfolio-bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+.portfolio-bg-4 {
+    background-image: url(../img/bg-4.jpg);
+}
+.portfolio-bg-5 {
+    background-image: url(../img/bg-5.jpg);
+}
+.portfolio-bg-6 {
+    background-image: url(../img/bg-6.jpg);
+}
+
+.portfolio-item {
+    overflow: hidden;
+}
+.single-portfolio-item {
+    background-position: center center;
+    background-size: cover;
+    float: left;
+    height: 300px;
+    position: relative;
+    width: 33.333333%;
+    z-index: 1;
+    background-color: #333;
+}
+.large-bg {
+    height: 600px;
+}
+.portfolio-hover {
+    bottom: -50px;
+    color: #fff;
+    font-size: 12px;
+    left: 0;
+    letter-spacing: 1px;
+    opacity: 0;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 100%;
+}
+.portfolio-hover h4 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.single-portfolio-item::after {
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+    z-index: -1;
+}
+.single-portfolio-item:hover::after {
+    opacity: 0.8;
+}
+.single-portfolio-item:hover .portfolio-hover {
+    bottom: 0;
+    visibility: visible;
+    opacity: 1;
+}
+.single-portfolio-item::after{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,000000+100 */
+    background: #ffffff; /* Old browsers */
+    background: -webkit-linear-gradient(#ffffff 0%, #000000 100%);
+    background: -o-linear-gradient(#ffffff 0%, #000000 100%);
+    background: linear-gradient(#ffffff 0%, #000000 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+}
+
+.portfolio-filter {
+    background-color: #ddd;
+    margin: 0 0 50px;
+    padding: 0;
+    text-align: center;
+}
+.portfolio-filter li {
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.portfolio-filter li.active{
+    color: #0367A3;
+    background-color: #fff;
+}
