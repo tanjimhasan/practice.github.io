@@ -92,6 +92,7 @@ body {
     max-width: 140%;
     width: 470px;
     height: 310px;
+    background-color: #ddd;
 }
 .readmore-btn {
     position: absolute;
