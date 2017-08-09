@@ -1,0 +1,129 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.feature-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.feature-bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+
+.feature-bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+
+.feature-bg-4 {
+    background-image: url(../img/bg-4.jpg);
+}
+
+
+.feature-menu {
+    list-style: outside none none;
+    margin: 0 0 50px;
+    padding: 0;
+    text-align: center;
+}
+.feature-menu li {
+    display: inline-block;
+   
+}
+.feature-menu li a {
+    border-bottom: 3px solid transparent;
+    color: #5e5f62;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.feature-menu li.active a {
+    border-color: #f2c400;
+    outline: none;
+    text-decoration: none;
+}
+body {
+    background-color: #f5f5f5;
+    font-size: 16px;
+    line-height: 1.7;
+}
+.single-feature-item {
+    display: table;
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+.feature-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 500px;
+}
+.feature-content {
+    background-color: #fff;
+    display: table-cell;
+    padding-left: 550px;
+    padding-right: 10px;
+    vertical-align: middle;
+}
+.feature-content h4 {
+    color: #eaeaea;
+    font-size: 35px;
+}
+.feature-content h2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.feature-btn {
+    background-color: #f2c400;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: 30px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.feature-btn:hover {
+    background-color: #463a05;
+    color: #f2c400;
+}
