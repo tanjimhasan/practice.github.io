@@ -169,12 +169,11 @@ body {
     content: "";
     background-color: #000;
     z-index: -1;
-    opacity: 0;
+    opacity: 0.6;
     visibility: hidden;
 }
 .single-project-item:hover:after {
     visibility: visible;
-    opacity: .6;
 }
 .project-items .owl-dots {
     text-align: center;
