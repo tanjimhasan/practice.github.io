@@ -1,0 +1,217 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+.project-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.project-bg-2 {
+    background-image: url(../img/bg-2.jpg);
+}
+.project-bg-3 {
+    background-image: url(../img/bg-3.jpg);
+}
+.project-bg-4 {
+    background-image: url(../img/bg-4.jpg);
+}
+.project-bg-5 {
+    background-image: url(../img/bg-5.jpg);
+}
+.project-bg-6 {
+    background-image: url(../img/bg-6.jpg);
+}
+.project-bg-7 { 
+    background-image: url(../img/bg-7.jpg);
+}
+.project-bg-8 {
+    background-image: url(../img/bg-8.jpg);
+}
+.section-title {
+    margin-bottom: 30px;
+}
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.section-sep-warp {
+    color: #FBD451;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.section-sep-warp:after, .section-sep-warp:before {
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 2px;
+    content: "";
+    background-color: #fbd451;
+}
+
+.section-sep-warp:after {
+    left: 40px;
+}
+
+.section-sep-warp:before {
+    right: 40px;
+}
+
+.single-project-item {
+    background-position: center;
+    background-color: #ddd;
+    height: 280px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    transition: .3s;
+}
+
+.project-info {
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #FDCF3B;
+    font-style: italic;
+    transition: .3s;
+}
+
+.project-info h4 {
+    color: #fff;
+    font-style: normal;
+    font-weight: 600;
+}
+.project-item-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+.project-hover-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.project-hover-inner
+ a {
+    background-color: #0084D3;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: #fff;
+    line-height: 37px;
+    margin: 5px;
+    border-radius: 50%;
+    transition: .3s;
+}
+.single-project-item:hover .project-item-hover {
+    visibility: visible;
+    opacity: 1;
+}
+.single-project-item:hover .project-info {
+    visibility: hidden;
+    opacity: 0;
+}
+.project-item-hover a:hover {
+    background-color: #FDCF3B;
+}
+.single-project-item:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.single-project-item:hover:after {
+    visibility: visible;
+    opacity: .6;
+}
+.project-items .owl-dots {
+    text-align: center;
+}
+.project-items .owl-dots div {
+    width: 10px;
+    height: 10px;
+    background-color: #0084D3;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+}
+.project-items .owl-dots div.active {
+    background-color: #FDCF3B;
+}
+.project-items .owl-nav div {
+    position: absolute;
+    left: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #0084D3;
+    color: #fff;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 50%;
+    top: 50%;
+    margin-top: -25px;
+    transition: .3s;
+    opacity: .4;
+}
+.project-items .owl-nav div.owl-next {
+    right: 30px;
+    left: auto;
+}
+.project-items .owl-nav div:hover  {
+    background-color: #FDCF3B;
+    opacity: 1;
+
+}
