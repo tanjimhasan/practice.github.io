@@ -1,0 +1,126 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 150px 0;
+    mar
+}
+
+.main-menu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.main-menu li {
+    display: inline-block;
+    transition: .3s;
+}
+.main-menu li a {
+    color: #fff;
+    display: block;
+    padding: 15px;
+}
+.main-menu {
+    background-color: #000;
+    font-size: 16px;
+}
+.main-menu li:hover {
+    background-color: #232857;
+}
+.main-menu li {
+    position: relative;
+}
+.main-menu li ul {
+    background-color: #000;
+    position: absolute;
+    width: 250px;
+    padding: 15px 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+    z-index: 1;
+}
+.main-menu li ul li a {
+    padding: 10px 15px;
+}
+.main-menu li ul li {
+    display: block;
+}
+.main-menu li:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+.main-menu li:hover li:hover > a {
+    background-color: #DDA037;
+}
+
+.style-1 li ul {
+    margin-top: 20px;
+}
+.style-1 li:hover ul {
+    margin-top: 0;
+}
+
+.style-2 li ul {
+    transform: skew(20deg);
+}
+.style-2 li:hover ul {
+    transform: skew(0deg);
+}
+
+.style-3 li ul {
+    margin-left: 20px;
+}
+.style-3 li:hover ul {
+    margin-left: 0;
+}
+
+.style-4 li ul {
+    transform: skew(20deg);
+    margin-top: 20px;
+}
+.style-4 li:hover ul {
+    transform: skew(0deg);
+    margin-top: 0px;
+}
+
+.style-5 li ul {
+    transform: skew(20deg);
+    margin-left: 40px;
+}
+.style-5 li:hover ul {
+    transform: skew(0deg);
+    margin-left: 0px;
+}
