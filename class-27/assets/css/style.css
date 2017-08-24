@@ -146,7 +146,7 @@ body {
     z-index: 1;
     transform: translateY(10px);
     transition: all .5s ease-out .3s;
-    padding: 15px;
+    padding: 10px;
 }
 .portfolio-link:after {
     position: absolute;
