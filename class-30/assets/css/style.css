@@ -118,7 +118,6 @@ body {
     height: 350px;
     transition: all 0.5s ease 0s;
     width: 25%;
-    /*background-repeat: no-repeat;*/
 }
 .portfolio-hover {
     background-color: #fff;
@@ -135,32 +134,15 @@ body {
 }
 .portfolio-hover h3 {
     font-weight: 500;
-   /* transform: translateY(50px);
-    transition: all .5s ease-out .3s;*/
 }
-.portfolio-link {
+.portfolio-link a{
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 1px;
     opacity: 0.5;
     text-transform: uppercase;
-  /*position: relative;
-    z-index: 1;
-    transform: translateY(10px);
-    transition: all .5s ease-out .3s;
-    padding: 10px;*/
 }
-/*.portfolio-link:after {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    content: "";
-    z-index: -1;
-    background-color: #fff;
-}*/
-.portfolio-link:hover {
+.portfolio-link a:hover {
     opacity: 1;
 }
 .single-portfolio-item:hover .portfolio-hover {
@@ -170,12 +152,6 @@ body {
 .single-portfolio-item:hover {
     background-size: 120% auto;
 }
-/*.single-portfolio-item:hover .portfolio-hover h3 {
-    transform: translateY(-5px);
-}
-.single-portfolio-item:hover .portfolio-link {
-    transform: translateY(0px);
-}*/
 .single-portfolio-item.long {
     height: 700px;
 }
