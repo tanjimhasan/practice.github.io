@@ -1,0 +1,139 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i');
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.booking-area {
+    background-image: url(../img/bg-1.jpg);
+    background-size: cover;
+    background-color: #ddd;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 150px;
+    padding-top: 100px;
+}
+
+.booking-text {
+    color: #fff;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+.booking-area::after, .form-element::after {
+    background-color: #000;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+.sep-top {
+    max-width: 400px;
+}
+.sep-bottom {
+    margin-top: 25px;
+    max-width: 250px;
+}
+.booking-text h1 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.booking-text h2 {
+    font-size: 40px;
+    font-weight: 500;
+}
+.booking-form {
+    margin-top: 100px;
+}
+.form-element {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    border: 1px solid #4D473A;
+    transition: .3s;
+}
+.form-element label {
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+.form-element input[type="submit"] {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #e4c485;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 23px 30px;
+    text-transform: uppercase;
+}
+.form-element select:focus {
+    outline: 0;
+}
+.form-element:hover {
+    border: 1px solid #e4c485;
+}
+.form-element .nice-select {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #e4c485;
+    float: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+.form-element .nice-select:after{
+    border-bottom: 2px solid #E8C58E;
+    border-right: 2px solid #e8c58e;
+    width: 8px;
+    height: 8px;
+}
+.nice-select .option:hover {
+    background-color: #000;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus {
+    background-color: #000;
+}
+.nice-select.open .list {
+    width: 100%;
+    border-radius: 0;
+}
