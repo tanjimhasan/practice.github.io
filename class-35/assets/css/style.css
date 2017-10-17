@@ -90,6 +90,7 @@ body {
 .pricing-title h2 {
     font-weight: 300;
     line-height: 50px;
+    text-transform: uppercase;
 }
 
 .pricing-title strong {
@@ -138,9 +139,6 @@ body {
 .boxed-btn {
     padding: 25px;
     border-bottom: 1px solid #ddd;
-}
-
-.pricing-content {
 }
 
 .pricing-table .col-md-4 .pricing-content,.boxed-btn {
