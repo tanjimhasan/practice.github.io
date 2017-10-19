@@ -1,0 +1,199 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.portfolio-area {
+    background-image: url(../img/masonry-1.jpg);
+    background-size: cover; 
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.portfolio-bg-1 {
+    background-image: url(../img/masonry-1.jpg);
+}
+.portfolio-bg-2 {
+    background-image: url(../img/masonry-2.jpg);
+}
+.portfolio-bg-3 {
+    background-image: url(../img/masonry-3.jpg);
+}
+.portfolio-bg-4 {
+    background-image: url(../img/masonry-4.jpg);
+}
+.portfolio-bg-5 {
+    background-image: url(../img/masonry-5.jpg);
+}
+.portfolio-bg-6 {
+    background-image: url(../img/masonry-6.jpg);
+}
+.portfolio-bg-7 {
+    background-image: url(../img/masonry-7.jpg);
+}
+.portfolio-bg-8 {
+    background-image: url(../img/masonry-8.jpg);
+}
+.portfolio-bg-9 {
+    background-image: url(../img/masonry-9.jpg);
+}
+.portfolio-bg-10 {
+    background-image: url(../img/masonry-10.jpg);
+}
+.portfolio-bg-11 {
+    background-image: url(../img/masonry-11.jpg);
+}
+.portfolio-bg-12 {
+    background-image: url(../img/masonry-12.jpg);
+}
+
+.single-portfolio-img {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    position: relative;
+}
+
+
+
+.portfolio-area:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    content: "";
+    z-index: -1;
+    opacity: .7;
+}
+
+.section-title h2 {
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.section-title:after {
+    position: absolute;
+    left: 50%;
+    content: "";
+    background-color: #6AB9C0;
+    height: 3px;
+    width: 50px;
+    margin-left: -25px;
+    margin-top: 10px;
+}
+
+.portfolio-img {
+    overflow: hidden;
+}
+
+.single-portfolio-img {
+    width: 25%;
+    float: left;
+    height: 380px;
+    position: relative;
+    z-index: 1;
+    -webkit-transition: .3s;
+}
+
+.single-portfolio-img.wide {
+    width: 50%;
+}
+
+.single-portfolio-img.large {
+    height: 760px;
+}
+
+.single-portfolio-img
+ a {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+}
+
+.portfolio-category {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.portfolio-title {
+    color: #fff;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.single-portfolio-img:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ff3821;
+    content: "";
+    opacity: 0; 
+    z-index: -1;
+    visibility: hidden;
+}
+
+.single-portfolio-img:hover:after {
+    visibility: visible;
+    opacity: .5;
+}
+
+.single-portfolio-img
+ a {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.single-portfolio-img:hover
+ a {
+    visibility: visible;
+    opacity: 1;
+}
