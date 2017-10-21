@@ -1,0 +1,110 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.section-bg {
+    background-image: url(../img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #ddd;
+    position: relative;
+    z-index: 1;
+    line-height: 1.5;
+    color: #fff;
+}
+.section-overlay-blue,.section-overlay-light {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 40%;
+    background-color: #00AFF0;
+    opacity: .6;
+    z-index: -1;
+    content: "";
+    height: 100%;
+}
+.section-overlay-light {
+    left: auto;
+    right: 0;
+    width: 60%;
+    background-color: #000;
+    opacity: .4;
+}
+.single-service-item {
+    position: relative;
+    z-index: 1;
+    padding-left: 45px;
+    margin-bottom: 50px;
+}
+
+.single-service-item i.fa {
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 35px;
+}
+
+.single-service-item
+ h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-sub-title p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.section-sub-title h2 {
+    position: relative;
+    font-size: 40px;
+    margin: 12px 0 20px;
+    padding-bottom: 30px;
+}
+
+.section-sub-title h2:after {
+    position: absolute;
+    height: 2px;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 120px;
+    background: #0582B1;
+}
+
+.section-item-right>p {
+    margin-bottom: 94px;
+}
