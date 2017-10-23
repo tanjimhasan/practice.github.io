@@ -1,0 +1,164 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.footer-top-area {
+    margin-top: 150px;
+    padding: 50px 0;
+    background-color: #F4F4F4;
+}
+
+.newsletter-text h2 {
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.newsletter-text p {
+    font-size: 12px;
+    font-weight: 400;
+}
+.newsletter-form input[type:email] {
+    border: none;
+    background: none;
+}
+
+input[type="email"] {
+    border: none;
+    background: none;
+    text-transform: capitalize;
+    font-style: italic;
+    padding-left: 10px;
+    width: 60%;
+}
+
+input[type="email"] {
+    border-bottom: 1px solid #999;
+}
+
+.newsletter-form button {
+    width: 30%;
+    background: none;
+    border: none;
+    margin-left: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.newsletter-form button {
+    border-bottom: 2px solid #333;
+}
+
+.newsletter-form {
+    margin-top: 25px;
+}
+.copyrighy-text h3 {
+    font-weight: 400;
+    font-style: italic;
+    color: #000;
+}
+
+.copyrighy-text p {
+    font-style: italic;
+}
+
+.footer-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-menu li {
+    display: inline-block;
+}
+
+.footer-menu li a {
+    color: #000;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: 600;
+}
+
+.social-icon a {
+    color: #222;
+    padding-left: 10px;
+}
+
+.footer-menu {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.copyrighy-text {
+    margin-top: 19px;
+}
+.styled-bg-1 {
+    background-image: url(../img/bg-1.jpg);
+}
+.styled-bg-inner {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    width: 100%;
+}
+
+.styled-bg {
+    position: absolute;
+    bottom: 0;
+    height: 320px;
+    width: 270px;
+    left: -80px;
+    z-index: 1;
+}
+
+.footer-bottom-area .container {
+    position: relative;
+}
+
+.footer-bottom-area {
+    margin-bottom: 50px;
+}
+
+.styled-bg:after {
+    left: -30px;
+    position: absolute;
+    bottom: -30px;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #F4F4F4;
+    z-index: -1;
+}
