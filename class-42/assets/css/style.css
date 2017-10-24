@@ -1,0 +1,143 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Asiyah Script';
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding {
+    padding: 80px 0;
+}
+.shadow-section {
+    background-image: url(../img/section-bg.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-color: #ddd;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    position: relative;
+    z-index: 1;
+}
+
+.shadow-section:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    z-index: -1;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0.6+50,0.8+100;White+to+Transparent */
+    background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccffffff',GradientType=0 ); /* IE6-9 */
+}
+
+body {
+    color: #494949;
+}
+
+.shadow-section h2 {
+    font-size: 40px;
+    color: #000;
+    margin-bottom: 5px;
+}
+
+.pricing-text {
+    color: #D8085E;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.shadow-section p {
+    line-height: 1.8;
+}
+
+a.boxed-btn {
+    background-color: #D8085E;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px solid #D8085E;
+    transition: .4s;
+    margin-top: 30px;
+}
+
+a.boxed-btn:hover {
+    background-color: transparent;
+    color: #D8085E;
+}
+
+.single-counter-item
+ i.fa {
+    font-size: 30px;
+}
+
+.counter-section {
+    text-align: center;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+.single-counter-item {
+    background-color: #fff;
+    box-shadow: 0 5px 20px #ddd;
+    padding: 30px 0;
+}
+
+.single-counter-item
+ h2 {
+    font-size: 35px;
+    color: #D9095D;
+    font-family: inherit;
+    margin-top: 20px;
+}
+
+.single-counter-item
+ p {
+    text-transform: capitalize;
+    font-weight: 600;
+}
