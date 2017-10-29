@@ -266,3 +266,38 @@ img {
 /*=====================
 04.About Area CSS
 =======================*/
+.bg-gray {
+    background-color: #f4f4f4;
+}
+
+.borderd-img {
+    position: relative;
+    z-index: 2;
+}
+
+.borderd-img:before,.borderd-img:after {
+    position: absolute;
+    left: -5px;
+    top: 15%;
+    width: 5px;
+    height: 70%;
+    content: "";
+    background-color: #fc721e;
+    z-index: -1;
+}
+
+.borderd-img:after {
+    left: auto;
+    right: -5px;
+}
+
+.about-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.about-text {
+    padding: 10px;
+    margin-top: 25px;
+}
