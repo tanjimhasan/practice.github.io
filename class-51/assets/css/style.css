@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i');
+/*=====================
+Base CSS
+=======================*/
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+    color: #333;
+    line-height: 1.8;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.spece-90 {
+    height: 90px;
+}
+
+.spece-50 {
+    height: 50px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.padding-bottom-0 {
+    padding-bottom: 0;
+}
+.padding-top-0 {
+    padding-top: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*=====================
+01.Header Area CSS
+=======================*/
+.header-top {
+    background-color: #0b0b0b;
+    padding: 13px 0;
+}
+
+.header-top,.header-top a {
+    color: #f5f3f3;
+}
+
+.header-top i.fa {
+    padding-right: 5px;
+    color: #FC721E;
+}
+
+.social-links a {
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    border: 1px solid #f3f3f5;
+    color: #f3f3f5;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 0 3px;
+    transition: .3s;
+}
+
+.social-links a:first-child {
+    margin-left: 0;
+}
+
+.social-links a:hover {
+	background-color: #FC721E;
+	border-color: #FC721E;  
+}
+.header-top i.fa-phone {
+    margin-left: 30px;
+}
+
+.social-links {
+    display: inline-block;
+    padding-left: 25px;
+}
+.social-links i.fa {
+	padding-right: 0;
+	color: #fff;
+}
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    border: 1px solid;
+}
+
+.mainmenu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.mainmenu li {
+    display: inline-block;
+}
+
+.mainmenu li a {
+    display: block;
+    color: #0b0b0b;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    border: 1px solid transparent;
+    transition: .3s;
+}
+
+.mainmenu li:hover > a {
+    border-color: #FC721E;
+}
+
+.header-main {
+    padding: 18px;
+}
+
+/*=====================
+02.Slider Area CSS
+=======================*/
+.slider-area {
+    margin-bottom: -48px;
+}
+.slider-bg-1 {
+    background-image: url(../img/slider-bg-1.jpg);
+}
+.single-slider-item {
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    background-position: center;
+    position: relative;
+    z-index: 2;
+    background-color: #ddd;
+    color: #fff;
+    font-size: 16px;
+    line-height: 2;
+}
+.single-slider-item:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: .8;
+}
+.single-slider-item .d-table-cell {
+    vertical-align: middle;
+}
+.single-slider-item h2 {
+    font-size: 60px;
+    margin-bottom: 35px;
+}
+.boxed-btn {
+    display: inline-block;
+    padding: 7px 30px;
+    border: 1px solid #fc721e;
+    background-color: #fc721e;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+.boxed-btn.borderd-btn {
+    background: transparent;
+    margin-left: 30px;
+}
+.slider-btn {
+    margin-top: 25px;
+}
+.slider-area .owl-dots
+ div {
+    width: 2px;
+    height: 25px;
+    background-color: #fff;
+    display: inline-block;
+    margin: 5px;
+}
+
+.slider-area .owl-dots {
+    position: relative;
+    left: 0;
+    top: -100px;
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.slider-area .owl-dots
+ div.active {
+    height: 30px;
+    background-color: #FC721E;
+}
+
+/*=====================
+03.Service Area CSS
+=======================*/
+
+.section-title h2 {
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.service-bg {
+    background-color: #ddd;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-bg-1 {
+    background-image: url(../img/service-1.jpg);
+}
+
+.service-bg-2 {
+    background-image: url(../img/service-2.jpg);
+}
+
+.service-bg-3 {
+    background-image: url(../img/service-3.jpg);
+}
+
+.single-service-item {
+    text-align: center;
+    position: relative;
+    transition: .3s;
+}
+
+.single-service-item:hover {
+    box-shadow: 0 0 20px #ccc;
+}
+
+.service-heading {
+    position: absolute;
+    width: 100%;
+    top: 172px;
+}
+
+.service-heading h4 {
+    font-size: 20px;
+    width: 80%;
+    background-color: #fc721e;
+    padding: 15px;
+    margin: 0 auto;
+    color: #fff;}
+
+.service-content {
+    border: 1px solid #d1cfcf;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.service-btn {
+    color: #0c0c0c;
+    transition: .3s;
+}
+
+.service-btn:hover {
+    color: #fc721e;
+}
+
+.service-btn i.fa {
+    padding-left: 10px;
+}
+
+/*=====================
+04.About Area CSS
+=======================*/
+.bg-gray {
+    background-color: #f4f4f4;
+}
+
+.borderd-img {
+    position: relative;
+    z-index: 2;
+}
+
+.borderd-img:before,.borderd-img:after {
+    position: absolute;
+    left: -5px;
+    top: 15%;
+    width: 5px;
+    height: 70%;
+    content: "";
+    background-color: #fc721e;
+    z-index: -1;
+}
+
+.borderd-img:after {
+    left: auto;
+    right: -5px;
+}
+
+.about-text h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+}
+
+.about-text {
+    padding: 10px;
+    margin-top: 25px;
+}
+
+
+/*=====================
+05.CTA Area CSS
+=======================*/
+.cta-area h3 {
+    font-size: 20px;
+    color: #fff;
+    margin: 9px 0;
+}
+
+.cta-area {
+    background-color: #fc721e;
+    padding: 60px 0;
+}
+
+.cta-area .boxed-btn {
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+}
+
+/*=====================
+05.Project Area CSS
+=======================*/
+
+.project-bg-1 {
+    background-image: url(../img/project-bg-1.jpg);
+}
+.project-bg-2 {
+    background-image: url(../img/project-bg-2.jpg);
+}
+.project-bg-3 {
+    background-image: url(../img/project-bg-3.jpg);
+}
+.project-bg-4 {
+    background-image: url(../img/project-bg-4.jpg);
+}
+.project-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+    height: 100%;
+    width: 235px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.single-project-item {
+    position: relative;
+    margin-bottom: 30px;
+    padding-left: 255px;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    transition: .3s;
+}
+
+.single-project-item
+ h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.inline-btn {
+    font-weight: 600;
+    color: #000;
+}
+
+.inline-btn i.fa {
+    padding-left: 15px;
+}
+
+.project-bg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #000;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-project-item:hover .project-bg:after {
+    opacity: .8;
+    visibility: visible;
+}
+
+.single-project-item:hover h3,.single-project-item:hover .inline-btn {
+    color: #fc721e;
+}
+
+/*=====================
+06.Our Team Area CSS
+=======================*/
+.team-bg-1{
+    background-image: url(../img/team-bg-1.jpg);
+}
+.team-bg-2{
+    background-image: url(../img/team-bg-2.jpg);
+}
+.team-bg-3{
+    background-image: url(../img/team-bg-3.jpg);
+}
+.team-bg-4{
+    background-image: url(../img/team-bg-4.jpg);
+}
+
+.team-thumb {
+    background-size: cover;
+    background-position: center top;
+    height: 305px;
+    width: 100%;
+    background-color: #ddd;
+    position: relative;
+    z-index: 2;
+}
+
+.team-info {
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.team-info h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.team-social-links a {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    color: #000;
+    border: 1px solid;
+    margin: 0 3px;
+    line-height: 33px;
+}
+
+.team-thumb:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: #fc721e;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.single-team-member:hover .team-thumb:after {
+    opacity: .7;
+    visibility: visible;
+}
+
+.team-social-links a:hover {
+    color: #fc721e;
+}
+/*=====================
+07.Logo Slider Area CSS
+=======================*/
+.logo-carousel {
+    border-bottom: 1px solid #d7d5d5;
+    border-top: 1px solid #d7d5d5;
+    padding: 50px 0;
+    margin-bottom: 100px;
+}
+
+.single-logo-item {
+    vertical-align: middle;
+}
+
+/*=====================
+08.Footer Area CSS
+=======================*/
+
+.footer-area {
+    background-color: #000;
+
+}
+
+.footer-area,.footer-area a {
+    color: #8e8c8c;
+}
+
+.wiget-title {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+}
+
+.wiget-title:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 1px;
+    content: "";
+    background: #fc721e;
+}
+
+.footer-area .social-links {
+    padding-left: 0;
+    display: block;
+}
+
+.footer-logo {
+    margin: 26px 0;
+}
+
+.navigation-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.navigation-menu li {
+    position: relative;
+    padding-left: 40px;
+    text-transform: capitalize;
+    margin: 5px 0;
+}
+
+.navigation-menu li:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: fontAwesome;
+    content: "\f105";
+}
+
+
+.blog-link h4 {
+    font-size: 15px;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+.blog-link p {
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer-adderss ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer-adderss li i.fa {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    color: #fc721e;
+}
+
+.footer-adderss li {position: relative;padding-left: 25px;margin-bottom: 12px;}
+
+.newsletter-form {
+    margin-top: 30px;
+}
+
+.newsletter-form form {
+    background-color: #222;
+}
+
+.newsletter-form input,.newsletter-form button {
+    background: none;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-style: italic;
+
+}
+
+.newsletter-form button {
+    float: right;
+    color: #fff;
+    padding-right: 20px;
+}
+.newsletter-form input:focus,.newsletter-form button:focus {
+    outline: none;
+}
+.blog-link p:nth-child(2) {
+    margin-bottom: 50px;
+}
+
+.copyright-text-area {
+    border-top: 1px solid #403f3f;
+    text-align: center;
+    padding: 20px;
+    margin-top: 35px;
+}
