@@ -1,0 +1,85 @@
+/*Google Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+
+/* Base CSS */
+
+a:focus, input:focus, textarea:focus, button:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Zigzag Area CSS*/
+
+.zigzag-bg-1 {
+	background-image: url(../img/zigzag-bg-1.jpg);
+}
+.zigzag-bg-2 {
+	background-image: url(../img/zigzag-bg-2.jpg);
+}
+.zigzag-bg {
+  background-size: cover;
+  background-position: center;
+}
+.zigzag-text {
+  position: relative;
+  z-index: 1;
+  padding-right: 50px;
+  color: #fff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.zigzag-text:after {
+  position: absolute;
+  left: -4900%;
+  top: 0;
+  width: 5000%;
+  height: 100%;
+  background-color: #042352;
+  z-index: -1;
+  content: "";
+  transform: skew(15deg);
+}
+.zigzag-bg-2 .zigzag-text::after {
+  right: -4880%;
+  background-color: #00CCCD;
+  left: auto;
+}
+.zigzag-bg-2 {
+  overflow: hidden;
+  margin-top: 15px;
+}
+.zigzag-text h2 {
+  text-transform: capitalize;
+}
+.zigzag-btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #BAD432;
+  padding: 8px 15px;
+  margin-top: 15px;
+  border-radius: 3px;
+  transition: .3s;
+}
+.zigzag-btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+.section-padding {
+  background-color: #B9D330;
+}
